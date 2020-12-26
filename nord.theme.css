@@ -12,16 +12,16 @@
 
 /* Variables from DiscordRecolor. RGBA values only. */
 :root {
-	--accentcolor: 				143,188,187;
-	--linkcolor: 				143,188,187;
-	--mentioncolor: 			235,203,139;
+	--accentcolor: 			143,188,187;
+	--linkcolor: 			143,188,187;
+	--mentioncolor: 		235,203,139;
 	
-	--textbrightest: 			216,222,233;
-	--textbrighter: 			216,222,233;
-	--textbright: 				129,161,193;
-	--textdark: 				129,161,193;
-	--textdarker: 				94,129,172;
-	--textdarkest: 				76,86,106;
+	--textbrightest: 		216,222,233;
+	--textbrighter: 		216,222,233;
+	--textbright: 			129,161,193;
+	--textdark: 			129,161,193;
+	--textdarker: 			94,129,172;
+	--textdarkest: 			76,86,106;
 	
 	--backgroundaccent: 		46,52,64;
 	--backgroundprimary: 		67,76,94;
