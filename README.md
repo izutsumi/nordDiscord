@@ -8,7 +8,7 @@
 <h3>How-to use</h3>
 <ol>
   <li>Install <b>BandagedBD</b> from <a href="https://github.com/rauenzi/BetterDiscordApp">here</a>.</li>
-  <li>After that, go to your BDD theme folder which can be found in your Discord Client at <code>User settings > Bandaged BD > Themes</code></li>
+  <li>After that, go to your BDD theme folder which can be found in your Discord Client at <code>User Settings > Bandaged BD > Themes</code></li>
   <li>Click <b>Open Theme Folder</b> and place the <code>nord.theme.css</code> file <a href="https://github.com/izutsumi/nordDiscord/releases">downloaded from here</a> in there.</li>
   <li>Go back to Discord, and it will automatically show up in your theme list. All you need to do now is hit the slider switch on the right to turn it on.</li>
   <li>If everything is installed correctly, it will look similar to the image above. :) <ul><li><b>Having trouble installing the theme?</b> There is a more visual guide found <a href="https://0x71.cc/bd/guide/#install-theme-win">here</a> at betterdiscordlibrary.</li></ul></li>
