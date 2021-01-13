@@ -3,8 +3,6 @@
 # nordDiscord
 <p>This is an unofficial conversion of mwittrien's <a href="https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/DiscordRecolor">DiscordRecolor</a> theme for BetterDiscord into the palette of <a href="https://www.nordtheme.com/">NordTheme</a> by <a href="https://github.com/arcticicestudio">arcticicestudio</a>. I have also added my own color alterations that DiscordRecolor doesn't add.</p>
 
-<p>Unfortunately, there's some UI elements I wasn't able to figure out how to change just yet (for example, status colors and the red disable buttons). Eventually I plan to add them to this theme.</p>
-
 <h3>How-to use</h3>
 <ol>
   <li>Install <b>BandagedBD</b> from <a href="https://github.com/rauenzi/BetterDiscordApp">here</a>.</li>
@@ -17,3 +15,5 @@
 
 <h3>Special Thanks</h3>
 <p>Thank you <a href="https://www.reddit.com/r/nordtheme/">/r/nordtheme</a> for encouraging me to release this. :) I wasn't expecting such a warm welcome to it because of my beginner experience with this sorts of stuff.</p>
+
+<p>Thank you <a href="https://github.com/IDislikeChair">IDislikeChair</a> for fixing some issues the theme had and rewriting it!</p>
