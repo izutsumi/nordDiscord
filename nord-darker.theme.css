@@ -213,6 +213,7 @@
 /* ! Better solution needed. The animation does not transit smoothly */
 .da-avatar .da-wrapper[aria-label$="Online"] > svg > svg > rect[width="25"],
 .da-avatar[aria-label$="Online"] > svg > svg > rect[width="25"],
+.da-avatar .da-wrapper[aria-label$="mobile"] > svg > rect[width="10"],
 rect[mask="url(#svg-mask-status-online)"] {
 	fill: var(--nord14);
 }
