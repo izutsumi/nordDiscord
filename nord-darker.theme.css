@@ -102,6 +102,10 @@
 	margin-top      : 0;
 }
 
+.da-content > .da-sidebar {
+	border-radius: 0px;
+}
+
 /* Mac style buttons */
 /* ! The clickable area is too small. */
 .da-winButton {
