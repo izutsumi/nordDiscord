@@ -223,7 +223,6 @@
 	fill: var(--nord15);
 }
 
-.da-pointerEvents[mask="url(#svg-mask-status-idle)"],
-.da-cursorDefault > rect  {
+.da-pointerEvents[mask="url(#svg-mask-status-idle)"] {
 	fill: var(--nord13);
 }
