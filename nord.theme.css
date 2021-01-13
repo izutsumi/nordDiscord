@@ -1,14 +1,18 @@
 /**
  * @name nordDiscord
- * @description A Discord palette conversion to arcticicestudio's NordTheme. Uses mwittrien's DiscordRecolor CSS as a base with my own additions.
- * @author izutsumi, mwittrien
- * @version 1.0.0
+ * @description A Discord palette conversion to arcticicestudio's NordTheme. Uses mwittrien's DiscordRecolor CSS as a base with our own additions.
+ * @author izutsumi, IDislikeChair, mwittrien
+ * @version 1.0.1
  * @website https://github.com/izutsumi/nordDiscord
- * @source https://raw.githubusercontent.com/izutsumi/nordDiscord/master/nord.theme.css
  */
 
 /* DiscordRecolor CSS by mwittrien */
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css);
+/* Nord Highlight.js */
+@import url("https://unpkg.com/nord-highlightjs@0.1.0/dist/nord.css");
+/* RadialStautus */
+/* @import url("https://discordstyles.github.io/RadialStatus/base.css"); */
+
 
 /* Variables from DiscordRecolor. RGBA values only. */
 :root {
@@ -29,6 +33,70 @@
 	--backgroundsecondaryalt: 	46,52,64,.4;
 	--backgroundtertiary: 		46,52,64;
 	--backgroundfloating: 		46,52,64;
+
+	/* Radial Status variable */
+	--rs-small-spacing  : 1px;            /* spacing between avatar and status */
+	--rs-large-spacing  : 3px;            /* spacing between avatar and status for user popouts & modals/profiles */
+	--rs-width          : 2px;            /* Width/thickness of status border */
+	--rs-avatar-shape   : 50%;            /* 50% for round - 0% for square */
+	--rs-online-color   : var(--nord14);  /* color for online status */
+	--rs-idle-color     : var(--nord13);  /* color for idle status */
+	--rs-dnd-color      : var(--nord11);  /* color for dnd status */
+	--rs-offline-color  : var(--nord3);   /* color for offline status */
+	--rs-streaming-color: var(--nord15);  /* color for streaming status */
+	--rs-invisible-color: var(--nord3);   /* color for invisible status - Note this will only show for your own invisibility */
+
+
+	/* Nord color scheme */
+	--nord0    : #2e3440;
+	--nord1    : #3b4252;
+	--nord2    : #434c5e;
+	--nord3    : #4c566a;
+	--nord4    : #d8dee9;
+	--nord5    : #e5e9f0;
+	--nord6    : #eceff4;
+	--nord7    : #8fbcbb;
+	--nord8    : #88c0d0;
+	--nord9    : #81a1c1;
+	--nord10   : #5e81ac;
+	--nord11   : #bf616a;
+	--nord12   : #d08770;
+	--nord13   : #ebcb8b;
+	--nord14   : #a3be8c;
+	--nord15   : #b48ead;
+	--nordBlack: #252932;
+}
+
+/* Mac style buttons */
+/* ! The clickable area is too small. */
+.da-winButton {
+	color        : transparent;
+	height       : 10px;
+	width        : 10px;
+	border-radius: 50%;
+	margin-top   : 5px;
+	margin-right : 10px;
+	margin-left  : 10px;
+
+	transition: .2s;
+}
+
+.da-winButtonMinMax[aria-label="Minimize"] {
+	background-color: var(--nord13);
+}
+
+.da-winButtonMinMax[aria-label="Maximize"] {
+	background-color: var(--nord14);
+}
+
+.da-winButtonClose {
+	background-color: var(--nord11);
+	margin-right    : 25px
+}
+
+.da-winButton:hover {
+	color           : transparent;
+	background-color: var(--nord3);
 }
 
 /* Text Highlighting Styling */
@@ -44,7 +112,7 @@
 
 /* New Messages Divider & Pill */
 .da-isUnread .da-content {
-    color: #bf616a !important;
+    color: var(--nord11) !important;
 }
 
 .da-nameWrap .da-textRow {
@@ -52,16 +120,16 @@
 }
 
 .da-isUnread {
-    border-color: #bf616a;
+    border-color: var(--nord11);
 }
 
 .da-unreadPill {
-    background-color: #bf616a;
+    background-color: var(--nord11);
 }
 
 .da-unreadPillCapStroke {
-    color: #bf616a;
-    fill: #bf616a;
+    color: var(--nord11);
+    fill: var(--nord11);
 }
 
 /* Folder Icon and Background Colors  */
@@ -70,7 +138,7 @@ foreignObject > div > div > div > svg > path {
 }
 
 .da-folderIconWrapper {
-    background-color: #4c566a !important;
+    background-color: var(--nord3) !important;
 }
 
 /* Administrator Crown */
@@ -80,9 +148,38 @@ foreignObject > div > div > div > svg > path {
 
 /* Add Server & Explore Buttons */
 .da-circleIconButton {
-    color: #8fbcbb;
+    color: var(--nord7);
 }
 
 .da-circleIconButton.da-selected, .da-selected .da-childWrapper {
-    background-color: #8fbcbb;
+    background-color: var(--nord7);
+}
+
+/* New pin icon */
+.da-iconBadge {
+	background-color: var(--nord11);
+}
+
+/* Microphone and speaker mute */
+.da-strikethrough {
+	color: var(--nord11);
+}
+
+/* Status icons */
+.da-pointerEvents[mask="url(#svg-mask-status-online)"], 
+.da-pointerEvents[mask="url(#svg-mask-status-online-mobile)"] {
+	fill: var(--nord14);
+}
+
+.da-pointerEvents[mask="url(#svg-mask-status-dnd)"] {
+	fill: var(--nord11);
+}
+
+.da-pointerEvents[mask="url(#svg-mask-status-streaming)"] {
+	fill: var(--nord15);
+}
+
+.da-pointerEvents[mask="url(#svg-mask-status-idle)"],
+.da-cursorDefault > rect  {
+	fill: var(--nord13);
 }
