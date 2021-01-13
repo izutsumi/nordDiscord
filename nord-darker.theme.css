@@ -102,8 +102,8 @@
 	margin-top      : 0;
 }
 
-.da-content > .da-sidebar {
-	border-radius: 0px;
+.da-bg {
+	background-color: var(--nordBlack);
 }
 
 /* Mac style buttons */
