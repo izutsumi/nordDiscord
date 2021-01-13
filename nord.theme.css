@@ -166,19 +166,54 @@ foreignObject > div > div > div > svg > path {
 }
 
 /* Status icons */
-.da-pointerEvents[mask="url(#svg-mask-status-online)"], 
-.da-pointerEvents[mask="url(#svg-mask-status-online-mobile)"] {
+/* ! Better solution needed. The animation does not transit smoothly */
+.da-avatar .da-wrapper[aria-label$="Online"] > svg > svg > rect[width="25"],
+.da-avatar[aria-label$="Online"] > svg > svg > rect[width="25"],
+rect[mask="url(#svg-mask-status-online)"] {
 	fill: var(--nord14);
 }
 
-.da-pointerEvents[mask="url(#svg-mask-status-dnd)"] {
+.da-status[style="background-color: rgb(67, 181, 129);"] {
+	background-color: var(--nord14) !important;
+}
+
+
+.da-avatar .da-wrapper[aria-label$="Do Not Disturb"] > svg > svg > rect[width="25"],
+.da-avatar[aria-label$="Do Not Disturb"] > svg > svg > rect[width="25"],
+rect[mask="url(#svg-mask-status-dnd)"] {
 	fill: var(--nord11);
 }
 
-.da-pointerEvents[mask="url(#svg-mask-status-streaming)"] {
+.da-status[style="background-color: rgb(240, 71, 71);"] {
+	background-color: var(--nord11) !important;
+}
+
+.da-avatar .da-wrapper[aria-label$="Streaming"] > svg > svg > rect[width="25"],
+.da-avatar[aria-label$="Streaming"] > svg > svg > rect[width="25"],
+rect[mask="url(#svg-mask-status-streaming)"] {
 	fill: var(--nord15);
 }
 
-.da-pointerEvents[mask="url(#svg-mask-status-idle)"] {
+.da-status[style="background-color: rgb(89, 54, 149);"] {
+	background-color: var(--nord15) !important;
+}
+
+.da-avatar .da-wrapper[aria-label$="Idle"] > svg > svg > rect[width="25"],
+.da-avatar[aria-label$="Idle"] > svg > svg > rect[width="25"],
+rect[mask="url(#svg-mask-status-idle)"] {
 	fill: var(--nord13);
+}
+
+.da-status[style="background-color: rgb(250, 166, 26);"] {
+	background-color: var(--nord13) !important;
+}
+
+.da-avatar .da-wrapper[aria-label$="Invisible"] > svg > svg > rect[width="25"],
+.da-avatar[aria-label$="Invisible"] > svg > svg > rect[width="25"],
+rect[mask="url(#svg-mask-status-invisible)"] {
+	fill: var(--nord3);
+}
+
+.da-status[style="background-color: rgb(116, 127, 141);"] {
+	background-color: var(--nord3) !important;
 }
