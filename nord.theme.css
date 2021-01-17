@@ -167,10 +167,17 @@ foreignObject > div > div > div > svg > path {
 
 /* Status icons */
 /* ! Better solution needed. The animation does not transit smoothly */
+/* Status icons */
+/* ! Better solution needed. The animation does not transit smoothly */
 .da-avatar .da-wrapper[aria-label$="Online"] > svg > svg > rect[width="25"],
 .da-avatar[aria-label$="Online"] > svg > svg > rect[width="25"],
-.da-avatar .da-wrapper[aria-label$="mobile"] > svg > rect[width="10"],
-rect[mask="url(#svg-mask-status-online)"] {
+.da-status[aria-label="Online"] > svg > rect[width="10"],
+rect[mask="url(#svg-mask-status-online)"] ,
+
+.da-avatar .da-wrapper[aria-label$="mobile"] > svg > svg > rect[width="25"],
+.da-avatar[aria-label$="mobile"] > svg > svg > rect[width="25"],
+.da-status[aria-label="mobile"] > svg > rect[width="10"],
+rect[mask="url(#svg-mask-status-online-mobile)"] {
 	fill: var(--nord14);
 }
 
@@ -181,6 +188,7 @@ rect[mask="url(#svg-mask-status-online)"] {
 
 .da-avatar .da-wrapper[aria-label$="Do Not Disturb"] > svg > svg > rect[width="25"],
 .da-avatar[aria-label$="Do Not Disturb"] > svg > svg > rect[width="25"],
+.da-status[aria-label="Do Not Disturb"] > svg > rect[width="10"],
 rect[mask="url(#svg-mask-status-dnd)"] {
 	fill: var(--nord11);
 }
@@ -191,6 +199,7 @@ rect[mask="url(#svg-mask-status-dnd)"] {
 
 .da-avatar .da-wrapper[aria-label$="Streaming"] > svg > svg > rect[width="25"],
 .da-avatar[aria-label$="Streaming"] > svg > svg > rect[width="25"],
+.da-status[aria-label="Streaming"] > svg > rect[width="10"],
 rect[mask="url(#svg-mask-status-streaming)"] {
 	fill: var(--nord15);
 }
@@ -201,6 +210,7 @@ rect[mask="url(#svg-mask-status-streaming)"] {
 
 .da-avatar .da-wrapper[aria-label$="Idle"] > svg > svg > rect[width="25"],
 .da-avatar[aria-label$="Idle"] > svg > svg > rect[width="25"],
+.da-status[aria-label="Idle"] > svg > rect[width="10"],
 rect[mask="url(#svg-mask-status-idle)"] {
 	fill: var(--nord13);
 }
