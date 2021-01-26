@@ -4,6 +4,7 @@
  * @author izutsumi, IDislikeChair, mwittrien
  * @version 1.0.1
  * @website https://github.com/izutsumi/nordDiscord
+ * @source https://raw.githubusercontent.com/izutsumi/nordDiscord/master/nord.theme.css
  */
 
 /* DiscordRecolor CSS by mwittrien */
@@ -167,17 +168,15 @@ foreignObject > div > div > div > svg > path {
 
 /* Status icons */
 /* ! Better solution needed. The animation does not transit smoothly */
-/* Status icons */
-/* ! Better solution needed. The animation does not transit smoothly */
-.da-avatar .da-wrapper[aria-label$="Online"] > svg > svg > rect[width="25"],
-.da-avatar[aria-label$="Online"] > svg > svg > rect[width="25"],
-.da-status[aria-label="Online"] > svg > rect[width="10"],
+.da-avatar .da-wrapper[aria-label$="Online"] > svg > svg > rect,
+/* .da-avatar[aria-label$="Online"] > svg > svg > rect[width="25"], */
+.da-status[aria-label="Online"] > svg > rect,
 rect[mask="url(#svg-mask-status-online)"] ,
 
-.da-avatar .da-wrapper[aria-label$="mobile"] > svg > svg > rect[width="25"],
-.da-avatar[aria-label$="mobile"] > svg > svg > rect[width="25"],
-.da-status[aria-label="mobile"] > svg > rect[width="10"],
-rect[mask="url(#svg-mask-status-online-mobile)"] {
+.da-avatar .da-wrapper[aria-label$="mobile"] > svg > svg > rect,
+/* .da-avatar[aria-label$="mobile"] > svg > svg > rect[width="25"], */
+.da-status[aria-label="mobile"] > svg > rect,
+rect[mask="url(#svg-mask-status-online-mobile)"] { 
 	fill: var(--nord14);
 }
 
@@ -186,9 +185,9 @@ rect[mask="url(#svg-mask-status-online-mobile)"] {
 }
 
 
-.da-avatar .da-wrapper[aria-label$="Do Not Disturb"] > svg > svg > rect[width="25"],
-.da-avatar[aria-label$="Do Not Disturb"] > svg > svg > rect[width="25"],
-.da-status[aria-label="Do Not Disturb"] > svg > rect[width="10"],
+.da-avatar .da-wrapper[aria-label$="Do Not Disturb"] > svg > svg > rect,
+/* .da-avatar[aria-label$="Do Not Disturb"] > svg > svg > rect[width="25"], */
+.da-status[aria-label="Do Not Disturb"] > svg > rect,
 rect[mask="url(#svg-mask-status-dnd)"] {
 	fill: var(--nord11);
 }
@@ -197,9 +196,9 @@ rect[mask="url(#svg-mask-status-dnd)"] {
 	background-color: var(--nord11) !important;
 }
 
-.da-avatar .da-wrapper[aria-label$="Streaming"] > svg > svg > rect[width="25"],
-.da-avatar[aria-label$="Streaming"] > svg > svg > rect[width="25"],
-.da-status[aria-label="Streaming"] > svg > rect[width="10"],
+.da-avatar .da-wrapper[aria-label$="Streaming"] > svg > svg > rect,
+/* .da-avatar[aria-label$="Streaming"] > svg > svg > rect[width="25"], */
+.da-status[aria-label="Streaming"] > svg > rect,
 rect[mask="url(#svg-mask-status-streaming)"] {
 	fill: var(--nord15);
 }
@@ -208,9 +207,9 @@ rect[mask="url(#svg-mask-status-streaming)"] {
 	background-color: var(--nord15) !important;
 }
 
-.da-avatar .da-wrapper[aria-label$="Idle"] > svg > svg > rect[width="25"],
-.da-avatar[aria-label$="Idle"] > svg > svg > rect[width="25"],
-.da-status[aria-label="Idle"] > svg > rect[width="10"],
+.da-avatar .da-wrapper[aria-label$="Idle"] > svg > svg > rect,
+/* .da-avatar[aria-label$="Idle"] > svg > svg > rect[width="25"], */
+.da-status[aria-label="Idle"] > svg > rect,
 rect[mask="url(#svg-mask-status-idle)"] {
 	fill: var(--nord13);
 }
@@ -219,8 +218,8 @@ rect[mask="url(#svg-mask-status-idle)"] {
 	background-color: var(--nord13) !important;
 }
 
-.da-avatar .da-wrapper[aria-label$="Invisible"] > svg > svg > rect[width="25"],
-.da-avatar[aria-label$="Invisible"] > svg > svg > rect[width="25"],
+.da-avatar .da-wrapper[aria-label$="Invisible"] > svg > svg > rect,
+/* .da-avatar[aria-label$="Invisible"] > svg > svg > rect[width="25"], */
 rect[mask="url(#svg-mask-status-invisible)"] {
 	fill: var(--nord3);
 }
