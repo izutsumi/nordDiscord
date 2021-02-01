@@ -107,8 +107,8 @@ div[class*="winButton"]:hover {
 
 /* Text Highlighting Styling */
 ::selection {
-    background-color: rgba(143,188,187,.5);
-    color: #d8dee9;
+    background-color: rgba(129, 161, 193,.5);
+    color           : var(--nord4);
 }
 
 /* Mention Border */
@@ -144,7 +144,7 @@ span[class*="unreadPill"] {
 .da-unreadPillCapStroke,
 path[class*="unreadPillCapStroke"] {
     color: var(--nord11);
-    fill: var(--nord11);
+    fill : var(--nord11);
 }
 
 /* Folder Icon and Background Colors  */
@@ -270,4 +270,8 @@ rect[mask="url(#svg-mask-status-offline)"] {
 .da-status[style="background-color: rgb(116, 127, 141);"],
 div[class*="status"][style="background-color: rgb(116, 127, 141);"] {
 	background-color: var(--nord3) !important;
+}
+
+div[class*="divider"] {
+	background-color: transparent !important;
 }

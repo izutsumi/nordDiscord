@@ -314,3 +314,7 @@ rect[mask="url(#svg-mask-status-offline)"] {
 div[class*="status"][style="background-color: rgb(116, 127, 141);"] {
 	background-color: var(--nord3) !important;
 }
+
+div[class*="divider"] {
+	background-color: transparent !important;
+}
