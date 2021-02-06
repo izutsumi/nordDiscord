@@ -275,3 +275,11 @@ div[class*="status"][style="background-color: rgb(116, 127, 141);"] {
 div[class*="divider"] {
 	background-color: transparent !important;
 }
+
+.lookFilled-1Gx00P.colorGreen-29iAKY {
+   background-color: #5e81ac
+ } 
+  
+ .lookFilled-1Gx00P.colorGreen-29iAKY:hover {
+   background-color: #81a1c1
+ }
