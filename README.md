@@ -15,7 +15,7 @@
 <h3>variations</h3>
 <li>There are two variations of this theme, nord and nord darker, you can choose between them. Nord is the normal and nord darker is a slightly darker variation</li>
 
-※ If any color choices bother you, it is possible to modify it by going into nord.theme.css and editing it using your program of choice.
+<li>※ If any color choices bother you, it is possible to modify it by going into nord.theme.css and editing it using your program of choice.</li>
 
 <h3>Special Thanks</h3>
 <p>Thank you <a href="https://www.reddit.com/r/nordtheme/">/r/nordtheme</a> for encouraging me to release this. :) I wasn't expecting such a warm welcome to it because of my beginner experience with this sorts of stuff.</p>
