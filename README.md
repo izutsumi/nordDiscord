@@ -1,7 +1,7 @@
 <p align="center"><img src="https://raw.githubusercontent.com/izutsumi/nordDiscord/main/preview.png" width="600px"></p>
 
 # nordDiscord
-<p>This is an unofficial conversion of mwittrien's <a href="https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/DiscordRecolor">DiscordRecolor</a> theme for BetterDiscord into the palette of <a href="https://www.nordtheme.com/">NordTheme</a> by <a href="https://github.com/arcticicestudio">arcticicestudio</a>. I have also added my own color alterations that DiscordRecolor doesn't add.</p>
+<p>This is an unofficial conversion of mwittrien's <a href="https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/DiscordRecolor">DiscordRecolor</a> theme for BetterDiscord into the <a href="https://www.nordtheme.com/">Nord</a> color palette by <a href="https://github.com/arcticicestudio">arcticicestudio</a>. I have also added my own color alterations that DiscordRecolor doesn't add.</p>
 
 <h3>How-to use</h3>
 <ol>
