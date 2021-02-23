@@ -12,12 +12,12 @@
   <li>If everything is installed correctly, it will look similar to the images below. :) <ul><li><b>Having trouble installing the theme?</b> There is a more visual guide found <a href="https://0x71.cc/bd/guide/#install-theme-win">here</a> at betterdiscordlibrary.</li></ul></li>
 </ol>
 
-<h3>previews</h3>
-<li>lighter version</li>
+<h3>🖼️ Previews</h3>
+<li>Lighter variant</li>
 
 <p align="center"><img src="https://raw.githubusercontent.com/izutsumi/nordDiscord/main/img/preview-light.png" width="600px"></p>
 
-<li>darker version</li>
+<li>darker variant</li>
 
 <p align="center"><img src="https://raw.githubusercontent.com/izutsumi/nordDiscord/main/img/preview-dark.png" width="600px"></p>
 
