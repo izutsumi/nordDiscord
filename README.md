@@ -1,7 +1,7 @@
 <p align="center"><img src="https://raw.githubusercontent.com/izutsumi/nordDiscord/main/img/theme-banner.png" width="600px"></p>
 
 # nord
-<p>an arctic, north bluish color pallete for discord based on<a href="https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/DiscordRecolor">DiscordRecolor</a><a href="https://www.nordtheme.com/">Nord</a> color palette by <a href="https://github.com/arcticicestudio">arcticicestudio</a>
+<p>an arctic, north bluish color pallete for discord based on <a href="https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/DiscordRecolor">DiscordRecolor</a>
 
 <h3>🖥️ installation</h3>
 <ol>
@@ -16,15 +16,16 @@
 <li>lighter version</li>
 
 <p align="center"><img src="https://raw.githubusercontent.com/izutsumi/nordDiscord/main/img/preview-light.png" width="600px"></p>
+
 <li>darker version</li>
 
 <p align="center"><img src="https://raw.githubusercontent.com/izutsumi/nordDiscord/main/img/preview-dark.png" width="600px"></p>
 
 
-<h3>Variations</h3>
+<h3>🌟 Variations</h3>
 <li>There are two variations of this theme, nord and norddarker, you can choose between them. Nord is the normal and nord darker is a slightly darker variation</li>
 
-<h3>Special Thanks to</h3>
+<h3>💖 Special Thanks to</h3>
 <p><a href="https://www.reddit.com/r/nordtheme/">/r/nordtheme</a> for encouraging me to release this. :) I wasn't expecting such a warm welcome to it because of my beginner experience with this sorts of stuff.</p>
 
 <p><a href="https://github.com/IDislikeChair">IDislikeChair</a> for fixing some issues the theme had and rewriting it!</p>
