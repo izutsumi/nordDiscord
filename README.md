@@ -3,7 +3,7 @@
 # nord
 <p>an arctic, north bluish color pallete for discord based on <a href="https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/DiscordRecolor">DiscordRecolor</a>
 
-<h3>🖥️ installation</h3>
+<h3>🖥️ Installation</h3>
 <ol>
   <li>Install <b>BandagedBD</b> from <a href="https://github.com/rauenzi/BetterDiscordApp">here</a>.</li>
   <li>After that, go to your BDD theme folder which can be found in your Discord Client at <code>User Settings > Bandaged BD > Themes</code></li>
@@ -29,3 +29,5 @@
 <p><a href="https://www.reddit.com/r/nordtheme/">/r/nordtheme</a> for encouraging me to release this. :) I wasn't expecting such a warm welcome to it because of my beginner experience with this sorts of stuff.</p>
 
 <p><a href="https://github.com/IDislikeChair">IDislikeChair</a> for fixing some issues the theme had and rewriting it!</p>
+
+<p><a href="https://github.com/sheeepdev">Sheepdev</a> for recoloring some elements and enhancing `README.md`.
