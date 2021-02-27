@@ -30,4 +30,4 @@
 
 <p><a href="https://github.com/IDislikeChair">IDislikeChair</a> for fixing some issues the theme had and rewriting it!</p>
 
-<p><a href="https://github.com/sheeepdev">Sheepdev</a> for recoloring some elements and enhancing `README.md`.
+<p><a href="https://github.com/sheeepdev">Sheepdev</a> for recoloring some elements and enhancing the readme.
