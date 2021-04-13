@@ -12,6 +12,13 @@
   <li>If everything is installed correctly, it will look similar to the images below. :) <ul><li><b>Having trouble installing the theme?</b> There is a more visual guide found <a href="https://bd.zerebos.com/#install-theme-win">here</a> at zerebos's site.</li></ul></li>
 </ol>
 
+<h3>💻 Powercord Installation (Installation is a bit unconvinent and buggy)</h3>
+<li>Install powercord from <a href="https://powercord.dev/installation">here<a/>.</li>
+<li>Download <code>powercord_manifest.json</code> and <code>theme.css</code> from the powercord folder on this repo</li>
+<li>Go to you powercord themes directory (/Powercord/src/Powercord/themes)</li>
+<li>Put all the files from step 3 there</li>
+  
+
 <h3>🖼️ Previews</h3>
 <li>Lighter variant</li>
 
