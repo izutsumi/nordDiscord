@@ -25,7 +25,7 @@
 
 <p align="center"><img src="https://raw.githubusercontent.com/izutsumi/nordDiscord/main/img/preview-light.png" width="600px"></p>
 
-<li>darker variant</li>
+<li>Darker variant</li>
 
 <p align="center"><img src="https://raw.githubusercontent.com/izutsumi/nordDiscord/main/img/preview-dark.png" width="600px"></p>
 
@@ -33,7 +33,7 @@
 <h3>🌟 Variations</h3>
 <li>There are two variations of this theme, nord and norddarker, you can choose between them. Nord is the normal and nord darker is a slightly darker variation</li>
 
-<h3>💖 Special Thanks to</h3>
+<h3>💖 Special thanks to</h3>
 <p><a href="https://www.reddit.com/r/nordtheme/">/r/nordtheme</a> for encouraging me to release this. :) I wasn't expecting such a warm welcome to it because of my beginner experience with this sorts of stuff.</p>
 
 <p><a href="https://github.com/IDislikeChair">IDislikeChair</a> for fixing some issues the theme had and rewriting it!</p>
