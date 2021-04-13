@@ -38,4 +38,4 @@
 
 <p><a href="https://github.com/IDislikeChair">IDislikeChair</a> for fixing some issues the theme had and rewriting it!</p>
 
-<p><a href="https://github.com/sheeepdev">Sheepdev</a> for recoloring some elements and enhancing the readme.
+<p><a href="https://github.com/sheeepdev">sheepdev</a> for recoloring some elements, enhancing the readme and adding powercord support.
