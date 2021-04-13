@@ -1,8 +1,8 @@
 {
     "name": "nord",
-    "description": "A dark discord palette converted to arcticicestudio's nord color scheme. Uses mwittrien's DiscordRecolor CSS as a base with our own additions.",
+    "description": "Discord theme based on mwrittien's (DevilBro) DiscordReColor converted to the nord color pallete with a few additions",
     "version": "2.0",
-    "author": "izutsumi, idislikechair, sheep, mwittrien",
+    "author": "izutsumi, idislikechair and sheep",
     "theme": "theme.css",
-    "license": "unknown"
+    "license": "MIT"
 }
