@@ -17,7 +17,7 @@
   <li>Follow the instructions to install powercord from <a href="https://powercord.dev/installation">here<a/>.</li>
   <li>Download <code>powercord_manifest.json</code> and <code>theme.css</code> from the powercord folder in this repo.</li>
   <li>Go to your powercord themes directory (/Powercord/src/Powercord/themes).</li>
-  <li>Put all the files from step 3 there.</li>
+  <li>Put all the files from step 2 there.</li>
 </ol>
 
 <h3>🖼️ Previews</h3>
